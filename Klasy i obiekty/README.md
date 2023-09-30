@@ -13,11 +13,12 @@ Zdefiniuj klasę Attachment. Powinna ona dostarczać następujących metod i atr
 * stosowny konstruktor
 * gettery dla obu pól
 * metodę toString() zwracającą nazwę pliku oraz jego rozmiar.
-  Rozszerz klasę Mail o możliwość obsługi listy załączników
+  
+Rozszerz klasę Mail o możliwość obsługi listy załączników
 
 Dodatkowo, rozbuduj klasę Mail o następujące metody i atrybuty:
 
 * stała statyczna MAX_MAIL_SIZE określająca maksymalny rozmiar (w bajtach) wiadomości
-* metoda addAttachment (zwraca false, jeśli przekroczono maksymalny rozmiar wiadomości
-* metoda getAttachment zwracającą załącznik o podanym numerze.
-* metoda removeAttachment podajemy nazwę pliku, który chcemy usunąć z listy
+* metoda addAttachment (zwraca false, jeśli przekroczono maksymalny rozmiar wiadomości)
+* metoda getAttachment zwracającą załącznik o podanym numerze
+* metoda removeAttachment podajemy nazwę pliku, który chcemy usunąć z listy.
