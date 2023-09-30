@@ -1,1 +1,5 @@
+Dana jest struktura struct Point{ int x, y; }; Zdefiniuj strukturę Node określającą węzeł listy linkowanej jednokierunkowej przechowującej obiekty typu Point. Następnie zdefiniuj strukturę List realizującą koncepcję listy linkowanej jednokierunkowej oraz funkcje realizujące podstawowe operacje listowe, takie jak: wstawianie nowego elementu na początek, wstawianie nowego elementu na koniec, wstawianie elementu za pierwszym wystąpieniem podanego elementu (sygnatura: void insert(Node* node, Point point)), sprawdzanie, czy lista jest pusta, wypisywanie na ekran elementów listy oraz algorytm scalania dwóch posortowanych list w jedną posortowaną listę (można założyć, że dostarczone dwie listy będą posortowane; jako porządek proszę rozważyć porządek leksykograficzny, dowolnie czy rosnący czy malejący).
 
+Następnie przetestuj zaprogramowane funkcjonalności listy w funkcji main. Testy powinny być reprezentatywne, tj. powinny obejmować większość zwyczajnych zastosowań napisanych funkcji na niedużych listach (ale też nie trywialnych). 
+
+Rozwiązanie należy dostarczyć w jednym pliku źródłowym, kompilującym się kompilatorem zgodnym z g++ i standardem C++11. 
