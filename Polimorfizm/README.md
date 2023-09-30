@@ -24,4 +24,6 @@ Zdefiniuj klasę o nazwie Test. Klasa ta powinna dostarczać następujących wł
 * właściwość - zbiór pytań testowych
 * właściwość - osoba egzaminowana (potrzebna będzie dodatkowa mała klasa)
 * gettery i settery poszczególnych pytań
-* getter dla osoby egzaminowanej
+* getter dla osoby egzaminowanej.
+
+  Test ma dostarczać metodę int ocen(Oceniacz &o), która zwraca sumaryczną liczbę punktów względem podanego oceniacza.
