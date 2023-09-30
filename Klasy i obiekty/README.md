@@ -12,9 +12,9 @@ Zdefiniuj klasę Attachment. Powinna ona dostarczać następujących metod i atr
 * pole size, określające rozmiar pliku
 * stosowny konstruktor
 * gettery dla obu pól
-* metodę toString() zwracającą nazwę pliku oraz jego rozmiar.
+* metodę toString() zwracającą nazwę pliku oraz jego rozmiar. 
   
-Rozszerz klasę Mail o możliwość obsługi listy załączników
+Rozszerz klasę Mail o możliwość obsługi listy załączników.
 
 Dodatkowo, rozbuduj klasę Mail o następujące metody i atrybuty:
 
